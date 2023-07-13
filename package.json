@@ -1,7 +1,7 @@
 {
   "name": "@timid_au/react-lib",
   "private": false,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -40,7 +40,8 @@
   "exports": {
     ".": {
       "import": "./dist/react-lib.es.js",
-      "require": "./dist/react-lib.umd.js"
+      "require": "./dist/react-lib.umd.js",
+      "types": "./dist/index.d.ts"
     }
   }
 }
